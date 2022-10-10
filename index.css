@@ -144,14 +144,28 @@ select {
 
 /* set up the body */
 body {
-  background-color: rgb(241, 240, 240);
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(var(--clr-very-light-grayish-blue));
   font-family: var(--ff-plus-jakarta-sans);
-  background-color: red;
   line-height: 1.5;
   min-height: 100vh;
-  width: 1044px;
+  align-items: center;
+  justify-content: center;
 }
 
 body p {
   font-size: 16px;
+}
+
+.notifications {
+  width: 730px;
+  min-height: 80vh;
+  border-radius: 10px;
+  background-color: hsl(var(--clr-white));
+  padding: 30px;
+}
+
+.notifications > p {
+  font-weight: 800;
 }
