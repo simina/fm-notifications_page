@@ -12,7 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+    rel="stylesheet">
   <link rel=stylesheet href="index.css" />
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -30,39 +32,88 @@
 <body>
   <div class="notifications">
     <div class="heading">
-      <p>Notifications 3<span>Mark all as read</span></p>
+      <span class="text-heading">Notifications</span>
+      <div class="btn-summary">3</div>
+      <span class="text-light">Mark all as read</span>
     </div>
     <div class="listnotifications">
       <ul>
-        <li class="notification">
-          Mark Webber reacted to your recent post My first tournament today!
-          1m ago
+        <li class="notification row">
+          <img src="assets/images/avatar-mark-webber.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Mark Webber</span>
+              <span class="text-dark-greyish-blue">reacted to your recent post</span>
+              <span class="text-bold text-grayish">My first tournament today!</span>
+            </div>
+            <div class="text-greyish-blue">1m ago</div>
+          </div>
         </li>
-        <li>
-          Angela Gray followed you
-          5m ago
+        <li class="notification row">
+          <img src="assets/images/avatar-angela-gray.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Angela Gray</span>
+              <span class="text-dark-greyish-blue">followed you</span>
+            </div>
+            <div class="text-greyish-blue">5m ago</div>
+          </div>
         </li>
-        <li>
-          Jacob Thompson has joined your group Chess Club
-          1 day ago
+        <li class="notification row">
+          <img src="assets/images/avatar-jacob-thompson.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Jacob Thompson</span>
+              <span class="text-dark-greyish-blue">has joined your group</span>
+              <span class="text-bold text-blue">Chess Club</span>
+            </div>
+            <div class="text-greyish-blue">1 day ago</div>
+          </div>
         </li>
-        <li>
-          Rizky Hasanuddin sent you a private message
-          5 days ago
-          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
-          I'm already having lots of fun and improving my game.
+        <li class="notification row">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Rizky Hasanuddin</span>
+              <span class="text-dark-greyish-blue">sent you a private message</span>
+            </div>
+            <div class="text-greyish-blue">5 days ago</div>
+          </div>
+
+          <!-- <div>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+            I'm already having lots of fun and improving my game.</div> -->
         </li>
-        <li>
-          Kimberly Smith commented on your picture
-          1 week ago
+        <li class="notification row">
+          <img src="assets/images/avatar-kimberly-smith.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Kimberly Smith</span>
+              <span class="text-dark-greyish-blue">commented on your picture</span>
+            </div>
+            <div class="text-greyish-blue">1 week ago</div>
+          </div>
         </li>
-        <li>
-          Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-          2 weeks ago
+        <li class="notification row">
+          <img src="assets/images/avatar-nathan-peterson.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Nathan Peterson</span>
+              <span class="text-dark-greyish-blue">reacted to your recent post</span>
+              <span class="text-bold text-grayish">5 end-game strategies to increase your win rate</span>
+            </div>
+            <div class="text-greyish-blue">2 weeks ago</div>
+          </div>
         </li>
-        <li>
-          Anna Kim left the group Chess Club
-          2 weeks ago
+        <li class="notification row">
+          <img src="assets/images/avatar-anna-kim.webp">
+          <div>
+            <div>
+              <span class="text-bold text-very-dark-blue">Anna Kim</span>
+              <span class="text-dark-greyish-blue">left the group</span>
+              <span class="text-bold text-blue">Chess Club</span>
+            </div>
+            <div class="text-greyish-blue">2 weeks ago</div>
+          </div>
         </li>
       </ul>
     </div>
